@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-28T13:37:05 IST" name="Suite" finished-at="2025-12-28T13:37:13 IST" duration-ms="8273">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageValidation.TC01_LanguageValidation()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC01_LanguageValidation" class="TestCases.HomePageValidation"/>
+        <method signature="HomePageValidation.TC02_SearchProduct()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC02_SearchProduct" class="TestCases.HomePageValidation"/>
+      </group> <!-- HomePage -->
+      <group name="regression">
+        <method signature="HomePageValidation.TC01_LanguageValidation()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC01_LanguageValidation" class="TestCases.HomePageValidation"/>
+        <method signature="HomePageValidation.TC02_SearchProduct()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC02_SearchProduct" class="TestCases.HomePageValidation"/>
+      </group> <!-- regression -->
+      <group name="Product">
+        <method signature="HomePageValidation.TC01_LanguageValidation()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC01_LanguageValidation" class="TestCases.HomePageValidation"/>
+        <method signature="HomePageValidation.TC02_SearchProduct()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC02_SearchProduct" class="TestCases.HomePageValidation"/>
+      </group> <!-- Product -->
+      <group name="cart">
+        <method signature="HomePageValidation.TC02_SearchProduct()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" name="TC02_SearchProduct" class="TestCases.HomePageValidation"/>
+      </group> <!-- cart -->
+    </groups>
+    <test started-at="2025-12-28T13:37:05 IST" name="Sigin" finished-at="2025-12-28T13:37:13 IST" duration-ms="8273">
+      <class name="TestCases.HomePageValidation">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" started-at="2025-12-28T13:36:59 IST" name="OpenBrowser" finished-at="2025-12-28T13:37:05 IST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="Object()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" started-at="2025-12-28T13:37:06 IST" name="Object" finished-at="2025-12-28T13:37:06 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Object -->
+        <test-method signature="TC01_LanguageValidation()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" started-at="2025-12-28T13:37:06 IST" name="TC01_LanguageValidation" finished-at="2025-12-28T13:37:10 IST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LanguageValidation -->
+        <test-method is-config="true" signature="Object()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" started-at="2025-12-28T13:37:10 IST" name="Object" finished-at="2025-12-28T13:37:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Object -->
+        <test-method signature="TC02_SearchProduct()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" started-at="2025-12-28T13:37:10 IST" name="TC02_SearchProduct" finished-at="2025-12-28T13:37:13 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_SearchProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.HomePageValidation@3c9754d8]" started-at="2025-12-28T13:37:15 IST" name="TearDown" finished-at="2025-12-28T13:37:15 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.HomePageValidation -->
+    </test> <!-- Sigin -->
+  </suite> <!-- Suite -->
+</testng-results>
